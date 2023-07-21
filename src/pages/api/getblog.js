@@ -1,6 +1,6 @@
-import blogModel from "../../db/models/blogModel";
+import blogModel from "../../db/models/BlogModel";
 
-export default async (req, res) => {
+export default async function handler(req, res)  {
   if (req.method === "GET") {
     const object = {
       status: true,

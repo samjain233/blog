@@ -24,6 +24,13 @@ const BlogContent = (props) => {
                 <div
                   dangerouslySetInnerHTML={createMarkup(props.content)}
                 ></div>
+                <Image
+                  src="/main.jpg"
+                  width={400}
+                  height={300}
+                  className="image"
+                />
+                Image by <a href="https://www.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_38669443.htm#query=ubuntu&position=3&from_view=search&track=sph?sign-up=google">Freepik</a>
               </div>
             </div>
           </main>

@@ -4,7 +4,7 @@ import axios from "axios";
 import Navbar from "../../components/Navbar";
 import BlogContent from "../../components/blogmain/BlogContent";
 import Recomendation from "../../components/blogmain/Recomendation";
-import Footer from "../../components/footer";
+import Footer from "../../components/Footer";
 import config from "../../../config";
 import { useState } from "react";
 
