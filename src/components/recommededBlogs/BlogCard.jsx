@@ -4,7 +4,7 @@ const BlogCard = (props) => {
   return (
     <>
       <div className="m-2 mt-10 w-full sm:w-[300px] hover:w-[320px] transition-all duration-300">
-        <div className="p-1 py-4 border-solid border-[1px] border-orange-500 hover:cursor-pointer hover:bg-[#fff6ee] transition-all duration-300 shadow-sm">
+        <div className="p-1 py-4 border-solid border-[1px] border-orange-500 hover:cursor-pointer hover:bg-[#fff6ee] transition-all duration-300 shadow-sm hover:shadow-md">
           <div className="h-full sm:h-[200px]">
             <Image
               src="/desktop.jpg"

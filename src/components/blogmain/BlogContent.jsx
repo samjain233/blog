@@ -25,7 +25,7 @@ const BlogContent = (props) => {
                   dangerouslySetInnerHTML={createMarkup(props.content)}
                 ></div>
                 <Image
-                  src="/main.jpg"
+                  src="/desktop.jpg"
                   width={400}
                   height={300}
                   className="image"
