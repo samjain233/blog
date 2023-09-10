@@ -39,15 +39,6 @@ const slug = (props) => {
   return (
     <>
       <div>
-        <Head>
-          <title>trendbyte</title>
-          <meta name="description" content="sambhav jain website" />
-          <link
-            rel="stylesheet"
-            type="text/css"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-          />
-        </Head>
         <Navbar />
         <BlogContent {...data} />
         <Recomendation />

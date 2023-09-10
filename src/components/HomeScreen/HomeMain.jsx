@@ -19,7 +19,7 @@ const HomeMain = () => {
           <h3
             className={`${style.font_style} text-6xl font-thin text-orange-600 text-center leading-tight`}
           >
-            Riding the Wave of Tomorrow's Tech Trends
+            Riding the Wave of Tomorrow&#x27;s Tech Trends
           </h3>
         </div>
       </div>
